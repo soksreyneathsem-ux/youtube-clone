@@ -1,0 +1,29 @@
+.side-bar{
+    position:fixed;
+    left:0;
+    bottom:0;
+    top:75px;
+}
+/* Select ALL images inside the sidebar */
+.side-bar img{
+    width:30px;
+    height:30px; 
+}
+/* NEW: Center all sidebar items */
+.side-bar > div{
+    height:75px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Select ALL paragraphs inside the sidebar */
+.side-bar p{
+    font-family:Roboto, Arial ;
+    font-size: 10px;
+    margin-top:0px;
+    margin-bottom:0px;
+    text-align:center;
+}
+
